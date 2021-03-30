@@ -1,0 +1,392 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.login-signup .social-button {
+      background-position: 25px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 48px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 0;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.login-signup .loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.4em 0 0 0;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 48px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 18px;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 48px;
+}
+.loginBtn.loginBtn--email {
+  color: #2a2a2a;
+}
+.loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 55px;
+    height: 55%;
+}
+.login-signup .loginBtn:focus {
+  outline: none;
+}
+.login-signup .loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.login-signup .loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  text-shadow: 0 -1px 0 #354C8C;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  transition: all .3s ease-out 0s;
+  margin-bottom: 7px;
+}
+.login-signup .loginBtn--facebook:before {
+  /*border-right: #ffffff4a 1px solid;*/
+  background: url('../images/ic_fb.png') 15px 6px no-repeat;
+}
+.login-signup .loginBtn--facebook:hover,
+.login-signup .loginBtn--facebook:focus {
+    background-color: #1e3a8c;
+    background-image: linear-gradient(#2d4382, #263a73);
+    transition: all .3s ease-out 0s;
+}
+
+
+.login-signup #google-connect {
+    background: rgb(220, 74, 61) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png') no-repeat scroll 11px 3px / 42px 42px padding-box border-box;
+    border: 1px solid #EAEAEA;;
+    text-align: center;
+    text-decoration: none!important;
+}
+
+.login-signup #google-connect:hover {
+      border-color: rgb(220, 74, 61);
+      background: rgb(220, 74, 61) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png') no-repeat scroll 11px 3px / 42px 42px padding-box border-box;
+      -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+.login-signup #google-connect span {
+      box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+      -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    font-size: 20px;    
+}
+.loginBtn.loginBtn--email {
+    color: #777;
+    border: 1px solid #ddd;
+    background: #fff;
+    transition: all .3s ease-in-out 0s;
+
+}
+.loginBtn.loginBtn--email:hover {
+    background: #025784 url(../images/contexto/linkedIn.png) no-repeat scroll 18px 15px / 20px 18px padding-box border-box;
+    box-shadow: none;
+}
+.login-signup #google-connect:hover span {
+      color: #FFF;
+      -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.login-signup h2 {  color: #000000; 
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.06;
+    letter-spacing: -0.5px;
+    color: #04003F;
+  }
+.login-signup h5 {
+    color: #4A4A4A; 
+    font-family: "Source Sans Pro"; 
+    font-size: 16px;    
+    line-height: 24px;
+    width: 80%;
+}
+
+
+.loginBtn.loginBtn--email {
+    background: #0077B5 url(../images/contexto/linkedIn.png) no-repeat scroll 18px 15px / 20px 18px padding-box border-box;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+    color: #fff;
+}
+.login-signup .modal-body {
+  padding: 0px;
+}
+.not-a-member {
+  background: #F0F2FA;
+}
+
+.login-signup .modal-header {
+    background: #04003F;
+    color: #fff;
+}
+.login-signup .close {
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+  }
+.login-signup .modal-title {
+  width: 100%;
+}
+
+/*New Pages Css*/
+.find-dream-job-heading {
+background: rgb(1,203,126); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(1,203,126,1) 0%, rgba(19,249,169,1) 22%, rgba(18,242,174,1) 36%, rgba(17,219,168,1) 58%, rgba(18,242,174,1) 77%, rgba(0,192,118,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(1,203,126,1) 0%,rgba(19,249,169,1) 22%,rgba(18,242,174,1) 36%,rgba(17,219,168,1) 58%,rgba(18,242,174,1) 77%,rgba(0,192,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(1,203,126,1) 0%,rgba(19,249,169,1) 22%,rgba(18,242,174,1) 36%,rgba(17,219,168,1) 58%,rgba(18,242,174,1) 77%,rgba(0,192,118,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01cb7e', endColorstr='#00c076',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding: 50px 0;
+}
+.find-dream-job-heading h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+.find-dream-job-heading p{
+  font-size: 18px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.dream-job-login {
+  padding: 70px 0;
+}
+.full-width {
+  width: 100%;
+}
+.dp-block {
+  display: block;
+}
+.dream-job-login input {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  background: #FAFAFA;
+}
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.dream-job-login .form-group label {
+  position: relative;
+  cursor: pointer;
+}
+.dream-job-login .form-check {
+  padding-left: 0px;
+}
+.dream-job-login .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #777;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.dream-job-login .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    width: 6px;
+    height: 14px;
+    border: solid #2a2a2a;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.dream-job-login button {
+  border: none;
+  background: #72F697;
+  padding: 14px 60px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out 0s;
+}
+.dream-job-login button:hover{
+  background: #72d28d;
+  box-shadow: 0px 12px 24px #77777759;
+}
+.dream-job-login a {
+  color: #01B670;
+  text-decoration: underline!important;
+  font-size: 18px;
+}
+.create-your-profile {
+    background: rgb(1,203,126);
+    background: -moz-linear-gradient(-45deg, rgba(1,203,126,1) 0%, rgba(19,249,169,1) 22%, rgba(18,242,174,1) 36%, rgba(17,219,168,1) 58%, rgba(18,242,174,1) 77%, rgba(0,192,118,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(1,203,126,1) 0%,rgba(19,249,169,1) 22%,rgba(18,242,174,1) 36%,rgba(17,219,168,1) 58%,rgba(18,242,174,1) 77%,rgba(0,192,118,1) 100%);
+    background: linear-gradient(135deg, rgba(1,203,126,1) 0%,rgba(19,249,169,1) 22%,rgba(18,242,174,1) 36%,rgba(17,219,168,1) 58%,rgba(18,242,174,1) 77%,rgba(0,192,118,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01cb7e', endColorstr='#00c076',GradientType=1 );
+    padding: 50px 0;
+    min-height: 100vh;
+}
+.create-your-profile h3 {
+  font-size:36px;
+  font-weight: bold;
+}
+.create-your-profile .blocks li span {
+  border: 1px solid #01B670;
+  background: transparent;
+  height:20px;
+  width: 20px;
+  display: inline-block;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+.create-your-profile .blocks li.active span {
+  background: #01B670;
+}
+.create-your-profile input {
+  border: none;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.black-button {
+  background: #000;
+  color: #fff;
+  padding: 12px 60px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out 0s; 
+  outline: none;
+}
+.black-button:hover {
+  box-shadow: 0px 8px 16px #000000bd;
+  outline: none;
+}
+.create-your-profile select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #777;
+  outline: none;
+}
+
+.servicesChkBx {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.servicesChkBx input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.servicesChkBx .checkmark {
+    border: 1px solid #26262E;
+    border-radius: 4px;
+    display: block;
+    padding: 10px 15px;
+    background: #fff;
+    text-align: center;
+    width: 85%;
+}
+
+.servicesChkBx input:checked~.checkmark {
+    background-color: #fff;
+    border-color: #b5b5b5;
+    color: #b5b5b5;
+}
+
+
+.servicesChkBx input:checked~.checkmark:after {
+    display: block;
+}
+.create-your-profile strong {
+ font-size: 17px;
+ text-transform: uppercase;
+ color: #02985e;
+ cursor: pointer;
+}
+.black-bordered {
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    padding: 12px 60px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out 0s;
+    outline: none;
+}
+.black-bordered:hover {
+  background: #008e57;
+  border: 1px solid #008e57;
+  color: #fff;
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>login Facility Two</title>
+</head>
+
+<body>
+
+  <!-- Sign Up Modal -->
+  <div class="login_facility_two">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="modal-dialog">
+            <div class="modal-content border-0 bg-transparent">
+              <div class="modal-header text-center border-0 p-0">
+                <h3 class="modal-title modal-22 m-auto" id="sign_in_popupLabel">Please upload photos of all <br
+                    class="d-sm-block d-none"> company documents</h3>
+                <a href="javascript:void(0)" type="" class="close position-absolute" data-toggle="modal" data-target="#acc-approved">
+                  <img src="images/ic_close.svg" alt="">
+                </a>
+              </div>
+              <div class="modal-body border-0 p-0 mt-5">
+                <form class="upload-form">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h6 class="upload-head mb-3">Government Photo ID</h6>
+
+                      <div class="img-wrapper">
+                        <label
+                          class="img-upload-btn  m-auto d-flex flex-column justify-content-center align-items-center"
+                          for="image_uploads">
+                          <img src="images/camra_icon.jpg" alt="">
+                          <span class="d-block mt-1"> Add Photo</span> </label>
+                        <input class="d-none" type="file" id="image_uploads" name="image_uploads"
+                          accept=".jpg, .jpeg, .png" style="opacity: 0;">
+                        <div class="divider-line"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 text-center">
+                      <h6 class="upload-head mb-3">Degree/Diploma/Resume</h6>
+
+                      <div class="img-wrapper">
+                        <label
+                          class="img-upload-btn  m-auto d-flex flex-column justify-content-center align-items-center"
+                          for="image_uploads">
+                          <img src="images/camra_icon.jpg" alt="">
+                          <span class="d-block mt-1"> Add Photo</span> </label>
+                        <input class="d-none" type="file" id="image_uploads" name="image_uploads"
+                          accept=".jpg, .jpeg, .png" style="opacity: 0;">
+                        <div class="divider-line"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <h6 class="upload-head mb-3">First AID/CPR</h6>
+
+                      <div class="img-wrapper">
+                        <label
+                          class="img-upload-btn  m-auto d-flex flex-column justify-content-center align-items-center"
+                          for="image_uploads">
+                          <img src="images/camra_icon.jpg" alt="">
+                          <span class="d-block mt-1"> Add Photo</span> </label>
+                        <input class="d-none" type="file" id="image_uploads" name="image_uploads"
+                          accept=".jpg, .jpeg, .png" style="opacity: 0;">
+                      </div>
+                    </div>
+
+                    <div class="col mt-lg-5 mt-4 mb-3 text-center">
+                      <button class="btn form-btn"><span>Save</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="acc-approved" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body p-0 text-center">
+        <img src="images/icon01.jpg" alt="">
+        <div class="approve-text mt-3">Your account has been <br> approved</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $("nav").addClass("shrink");
+      } else {
+        $("nav").removeClass("shrink");
+      }
+    });
+  </script>
+</body>
+
+</html>
